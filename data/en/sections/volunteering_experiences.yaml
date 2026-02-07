@@ -1,0 +1,41 @@
+section:
+  name: Volunteering Experiences # Titre de la section (par défaut: "" )
+  id: volunteering_experiences # url id/slug of section *Required*
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+# Your experiences
+volunteering_experiences:
+- company:
+    name: Graduate Engineering Equity Committee (GEEC), McGill University
+    url: ""
+    location: Montreal, Canada
+    logo: /images/geec.png
+    darkLogo: /images/geec.png
+    overview: Organized EDI‑focused events and managed event logistics on behalf of GEEC.
+  positions:
+  - designation: Events Coordinator
+    start: Mar 2022
+    end: present
+    responsibilities:
+    - Organized monthly EDI-centric events such as movie nights, guest speaker talks, panel discussions, etc., on behalf of GEEC.
+    - Managed event logistics including creating registration forms, posters, room bookings, advertising, and collecting feedback.
+
+
+- company:
+    name: Shiksha, National Institute of Technology Kurukshetra
+    url: "https://www.instagram.com/shiksha.nitkkr/?hl=en"
+    location: Kurukshetra, India
+    logo: /images/shiksha.jpg
+    darkLogo: /images/shiksha.jpg
+    overview: Taught young students in core subjects, organized educational and cultural events, and contributed to fundraising efforts supporting underprivileged children.
+  positions:
+  - designation: Events Coordinator
+    start: Sept 2014
+    end: May 2018
+    responsibilities:
+    - Taught children from Kindergarten to Grade 2 in Mathematics, Science, and English.
+    - Organized science fairs and cultural festivals to promote overall growth among students, and coached children to participate in various competitions such as debates and quizzes.
+    - Organized and participated in annual fundraising campaigns for the benefit of the children.

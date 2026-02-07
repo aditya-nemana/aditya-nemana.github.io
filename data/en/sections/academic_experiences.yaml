@@ -2,62 +2,41 @@ section:
   name: Academic Experiences # Titre de la section (par défaut: "" )
   id: academic_experiences # url id/slug of section *Required*
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 # Your experiences
 academic_experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/experiences/company.png
-    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: McGill University
+    url: "https://coursecatalogue.mcgill.ca/courses/mech-430/index.html"
+    location: Montreal, Canada
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+    overview: Teaching Assistant for undergraduate Mechanical Engineering and Computer Science courses.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Teaching Assistant
+    start: Sept 2021
+    end: April 2025
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Conducted tutorials, graded assignments, and provided feedback to students.
+    - Assisted with the development of course materials and resources.
+    - Supported instruction for Fluid Mechanics 2 and Fundamentals of Computer Programming using Python.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/experiences/company.png
-    darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Advanced Combustion and Acoustics Laboratory, Indian Institute of Technology (IIT) Kanpur
+    url: "https://www.iitk.ac.in/aero/lab-facilities#:~:text=Advanced%20Combustion%20and%20Acoustics%20Laboratory"
+    location: Kanpur, India
+    logo: /images/iitk.png
+    darkLogo: /images/iitk.png
+    overview: Development of a Standalone, Liquid fueled Miniature Power Generation System at Advanced Combustion and Acoustics Laboratory.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Research Associate
+    start: July 2018
+    end: May 2019
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Worked on the design and development of a miniature power generation system using liquid fuel.
+    - Conducted Computational Fluid Dynamics (CFD) analyses using ANSYS-FLUENT and ICEM-CFD to evaluate the performance and efficiency of the system.
+    - Optimized the heat sink design, resulting in a publication in the Journal of Energy Resources Technology.

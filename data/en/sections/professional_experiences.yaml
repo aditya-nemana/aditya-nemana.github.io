@@ -1,0 +1,76 @@
+section:
+  name: Professional Experiences # Titre de la section (par défaut: "" )
+  id: professional_experiences # url id/slug of section *Required*
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+# Your experiences
+professional_experiences:
+- company:
+    name: Post-graduate Students Society (PGSS), McGill University
+    url: "pgss.mcgill.ca/"
+    location: Montreal, Canada
+    logo: /images/pgss.jpg
+    darkLogo: /images/pgss.jpg
+    overview: "Active involvement in accessibility advocacy, event organization, survey development, and ensuring digital accessibility compliance within PGSS and McGill University."
+  positions:
+  - designation: Accessibility Commissioner
+    start: June 2024
+    end: present
+    responsibilities:
+    - Active member of McGill University’s Subcommittee for People with Disabilities and its website development team.
+    - Organized events and workshops to raise awareness about accessibility issues faced by grad students and promote inclusivity.
+    - Developed an accessibility survey for graduate students and postdocs at McGill University.
+    - Responsible for ensuring that the upcoming new PGSS website confirms with WCAG 2.2 Level AA standards.
+
+
+- company:
+    name: Office of E-IDEA, McGill University
+    url: "https://www.mcgill.ca/engineering/initiatives/e-idea"
+    location: Montreal, Canada
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+    overview: "Contributed to EDI-focused engineering education through module design, course integration, community engagement, and providing a neurodivergent perspective."
+  positions:
+  - designation: SCOPE Fellow
+    start: Jan 2025
+    end: present
+    responsibilities:
+    - Member of the Social Impact, Community Building, and Outreach Partnerships in Engineering (SCOPE) team.
+    - Responsible for designing modules to help graduate students integrate the principles of Equity, Diversity, and Inclusion (EDI) into engineering design.
+    - Responsible for integrating the designed modules into a self-paced course website.
+    - Providing a neurodivergent perspective to the module and website design through my lived experiences.
+
+- company:
+    name: Office of E-IDEA, McGill University
+    url: "https://www.mcgill.ca/engineering/initiatives/e-idea"
+    location: Montreal, Canada
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+    overview: Researched EDI-focused engineering design approaches and developed databases highlighting marginalized engineers and Indigenous engineering innovations.
+  positions:
+  - designation: Summer Intern
+    start: May 2024
+    end: Aug 2024
+    responsibilities:
+    - Researched and compiled various approaches to integrating the principles of Equity, Diversity, and Inclusion (EDI) into engineering design.
+    - Created, collected, and maintained a database of engineers from marginalized communities worldwide who are underrepresented in the colonial engineering curriculum.
+    - Created, collected, and maintained a database highlighting ingenious engineering innovations by Indigenous peoples of Canada.
+
+- company:
+    name: International Student Services (ISS), McGill University
+    url: "https://www.mcgill.ca/internationalstudents/"
+    location: Montreal, Canada
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+    overview: Redesigning and maintaining the ISS website while ensuring accessibility compliance and supporting ISS events and initiatives.
+  positions:
+  - designation: Communications Assistant A
+    start: April 2025
+    end: present
+    responsibilities:
+    - Responsible for redesigning and maintaining the ISS website to improve user experience and access to information.
+    - Maintaining WCAG 2.0 AA (Level AA) and SGQRI 008 2.0 conformity using Editoria11y Accessibility Checker and WAVE.
+    - Assisted with the planning and execution of ISS events and initiatives.

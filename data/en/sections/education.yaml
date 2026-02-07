@@ -1,0 +1,78 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+degrees:
+- name: PhD in Mechanical Engineering
+  icon: fa-magnifying-glass-plus
+  timeframe: Sept 2021 – present
+  institution:
+    name: McGill University
+    url: "https://www.mcgill.ca/mecheng/grad/info/doctoral"
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+  grade:
+    scale: GPA
+    achieved: 3.9
+    outOf: 4.0
+  publications: []
+  extracurricularActivities: []
+  customSections: #(optional)
+    - name: Thesis
+      content: Matrix-free Preconditioners for Newton-Krylov methods for applications in compressible turbulent flows.
+    - name: Supervisor
+      content: Prof. Sivakumaran Nadarajah
+    - name: Relevant Courses
+      content: Turbulence, Numerical Analysis I, and Matrix Computations. 
+    - name: Awards
+      content: Recipient of the McGill Engineering Doctoral Award (MEDA).   
+       
+- name: MSc in Mechanical Engineering
+  icon: fa-user-graduate
+  timeframe: Sept 2019 – Feb 2022
+  institution:
+    name: McGill University
+    url: "https://www.mcgill.ca/mecheng/grad/info/mastert"
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+  grade:
+    scale: GPA
+    achieved: 4.0
+    outOf: 4.0
+  publications:
+    - title: " On the disturbance tracking methods for shock wave reflection studies "
+      url: "https://pubs.aip.org/aip/acp/article-abstract/3315/1/030001/3363002"
+  extracurricularActivities: []
+  customSections:
+    - name: Relevant Courses
+      content: Computational Aerodynamics, Computational Gas Dynamics, Turbomachinery and Propulsion, Dynamics of Combustion, and Finite Element Methods in CFD.
+    - name: Thesis
+      content: Perturbation Signal Tracking Techniques for Unsteady Shock Wave Flows
+    - name: Awards
+      content: Recipient of the M. P. Paidoussis Prize for the best MSc thesis in the Department of Mechanical Engineering, McGill University, in 2022.
+
+- name: B.Tech in Mechanical Engineering
+  icon: fa-graduation-cap
+  timeframe: July 2014 – May 2018
+  institution:
+    name: National Institute of Technology Kurukshetra
+    url: "https://nitkkr.ac.in/ug-mechanical/"
+    logo: /images/nitkkr.png
+    darkLogo: /images/nitkkr.png
+  grade:
+    scale: GPA
+    achieved: 9.45
+    outOf: 10.0
+  publications: []
+  extracurricularActivities: []
+  customSections:
+    - name: Relevant Courses
+      content: Fluid Dynamics, Thermodynamics, Numerical Mathematics, Calculus, and Power Generation.
+    - name: Project
+      content: Reduced-order model for hypersonic flow simulation in an axisymmetric intake with a conical forebody, supervised by the Defense Research and Development Laboratory (DRDO), India.
