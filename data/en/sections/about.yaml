@@ -8,79 +8,64 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Doctoral Student
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: McGill University
+  url: "https://www.mcgill.ca"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
-
+summary: |
+  - I am a doctoral student at McGill University.
+  - My research focuses on finding matrix-free preconditioners for Newton Krylov methods for solving large linear systems generated while solving compressible-turbulent flows numerically.
+  - I am also interested in developing efficient algorithms for solving large linear systems and nonlinear systems arising in scientific computing.
+  - I have experience working with various programming languages, including C++, Python, and Fortran, and I am proficient in using high-performance computing resources.
+  - In addition to my research, I enjoy exploring several hobbies such as website development and poetry writing.
+  - I also work on projects related to equity, diversity, inclusion, and accessibility.
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "aditya.nemana@mail.mcgill.ca"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/theoneinaminion"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/adityabharadwaz"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 85
+  percentage: 90
   color: blue
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 90
+  percentage: 95
   color: yellow
 
 - type: soft-skill-indicator
   name: Hard Working
-  percentage: 85
-  color: orange
+  percentage: 95
+  color: green
 
+- type: soft-skill-indicator
+  name: Community Engagement
+  percentage: 95
+  color: orange
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1

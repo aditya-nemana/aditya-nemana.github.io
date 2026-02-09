@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Aditya Nemana"
 
 # Use Hugo modules to add theme
 
@@ -55,7 +55,7 @@ enableEmoji: true
 # Site parameters
 params:
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/aditya-nemana/aditya-nemana.github.io
 
   features:
     # Enable portfolio section
@@ -64,7 +64,7 @@ params:
 
     # Enable blog posts
     blog:
-      enable: true
+      enable: false
 
     # Enable Table of contents in reading page
     toc:

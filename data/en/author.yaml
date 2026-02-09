@@ -1,20 +1,21 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "Aditya Nemana"
+nickname: "Aditya."
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
-# image: "images/author/john.png"
-# give your some contact information. they will be used in the footer
+greeting: "Hello! I am"
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
+  email: "aditya.nemana@mail.mcgill.ca"
+  phone: "+1 (438) 408-5027"
+  github: theoneinaminion
+  linkedin: adityabharadwaz
 
 # some summary about what you do
+image: "images/me.jpg"
+# give your some contact information. they will be used in the footer
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - I am a doctoral student pursuing my PhD at McGill University.
+  - My research focuses on finding matrix-free preconditioners for Newton Krylov methods for solving large linear systems generated while solving compressible-turbulent flows numerically.
+  - I am also interested in developing efficient algorithms for solving large linear systems and nonlinear systems arising in scientific computing.
+  - I have experience working with various programming languages, including C++, Python, and Fortran, and I am proficient in using high-performance computing resources.
+  - I also enjoy exploring several hobbies such as website develpment and poetry writing. 
+  - I also work on projects related to equity, diversity, inclusion, and accessibility.

@@ -1,0 +1,36 @@
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+publications:
+  - title: "On the Disturbance Tracking Methods for Shock Wave Reflection Studies"
+    authors:
+      - name: "Nemana, K. A. B."
+      - name: "Timofeev, E."
+    publishedIn:
+      name: "AIP Conference Proceedings"
+      url: "https://doi.org/10.1063/5.0286049"
+      date: 2025
+    doi: "10.1063/5.0286049"
+    volume: 3315
+    number: 1
+    pages: "030001"
+
+  - title: "Development of a Standalone, Liquid-Fueled Miniature Power Generation System"
+    authors:
+      - name: "Bharadwaz, N. K. A."
+      - name: "Jain, N."
+      - name: "Arghode, V. K."
+    publishedIn:
+      name: "Journal of Energy Resources Technology"
+      url: "https://doi.org/10.1115/1.4044764"
+      date: 2019
+    doi: "10.1115/1.4044764"
+    volume: 142
+    number: 4
+    pages: "042004"
