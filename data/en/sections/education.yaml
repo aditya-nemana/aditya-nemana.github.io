@@ -52,6 +52,8 @@ degrees:
   customSections:
     - name: Relevant Courses
       content: Computational Aerodynamics, Computational Gas Dynamics, Turbomachinery and Propulsion, Dynamics of Combustion, and Finite Element Methods in CFD.
+    - name: Supervisor
+      content: Prof. Evgeny Timofeev
     - name: Thesis
       content: Perturbation Signal Tracking Techniques for Unsteady Shock Wave Flows
     - name: Awards
