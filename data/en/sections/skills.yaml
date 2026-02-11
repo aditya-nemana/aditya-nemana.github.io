@@ -7,62 +7,69 @@ section:
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
-# Your Skills.
-# Give a summary of you each skill in the summary section.
-skills:
-- name: Linux
-  logo: /images/linux.png
-  summary: "Using as the main operating system for CFD code development. Capable of writing bash/shell scripts."
-  url: "https://www.linux.org/"
-
-- name: Git
-  logo: /images/git.png
-  summary: "Capable of using Git for version control and collaboration for industrial projects."
-  url: "https://git-scm.com/"
-
-- name: C/C++
-  logo: /images/cpp.png
-  summary: "Proficient in C/C++ programming for CFD code development, numerical methods, high-performance computing, and experience with Eigen, PETSc, and Boost."
-  url: "https://www.cprogramming.com/" 
-
-- name: Python
-  logo: /images/python.png
-  summary: "Proficient in Python programming for data analysis, visualization, and scripting. Experience with libraries such as NumPy, SciPy, Matplotlib, and Pandas."
-  url: "https://www.python.org/"
-
-- name: Matlab
-  logo: /images/matlab.png
-  summary: "Proficient in Matlab programming for numerical analysis, data visualization, and algorithm development."
-  url: "https://www.mathworks.com/products/matlab.html"
-
-- name: Canva
-  logo: /images/canva.png
-  summary: "Proficient in Canva for graphic design and content creation for marketing."
-  url: "https://www.canva.com/"
-
-- name: Hugo 
-  logo: /images/hugo.svg
-  summary: "Proficient in Hugo for static site generation and website development."
-  url: "https://gohugo.io/"  
-
-- name: HTML
-  logo: /images/html.png
-  summary: "Proficient in HTML for structuring web content, building email templates for marketing purposes."
-  url: "https://developer.mozilla.org/en-US/docs/Web/HTML"  
-
-- name: Editoria11y Accessibility Checker
-  logo: /images/drupal.png
-  summary: "Proficient in using Editoria11y Accessibility Checker for ensuring web content is accessible to all users, including those with disabilities."
-  url: "https://www.drupal.org/project/editoria11y"
-
-- name: MS-Office
-  logo: /images/office.png
-  summary: "Proficient in Microsoft Office Suite for document creation, data analysis, and presentation development."
-  url: "https://www.microsoft.com/en-us/microsoft-365"
-
-
-- name: Blender
-  logo: /images/blender.png
-  summary: "Proficient in Blender for 3D modeling, animation, and rendering."
-  url: "https://www.blender.org/"
+  groups:
+    - name: "Programming & Development"
+      skills:
+        - name: Linux
+          logo: /images/linux.png
+          summary: "Using as the main operating system for CFD code development. Capable of writing bash/shell scripts."
+          url: "https://www.linux.org/"
+        
+        - name: Git
+          logo: /images/git.png
+          summary: "Capable of using Git for version control and collaboration for industrial projects."
+          url: "https://git-scm.com/"
+        
+        - name: C/C++
+          logo: /images/cpp.png
+          summary: "Proficient in C/C++ programming for CFD code development, numerical methods, high-performance computing, and experience with Eigen, PETSc, and Boost."
+          url: "https://www.cprogramming.com/"
+        
+        - name: Python
+          logo: /images/python.png
+          summary: "Proficient in Python programming for data analysis, visualization, and scripting. Experience with libraries such as NumPy, SciPy, Matplotlib, and Pandas."
+          url: "https://www.python.org/"
+        
+        - name: Matlab
+          logo: /images/matlab.png
+          summary: "Proficient in Matlab programming for numerical analysis, data visualization, and algorithm development."
+          url: "https://www.mathworks.com/products/matlab.html"
+    
+    - name: "Web Development & Design"
+      skills:
+        - name: Hugo 
+          logo: /images/hugo.svg
+          summary: "Proficient in Hugo for static site generation and website development."
+          url: "https://gohugo.io/"
+        
+        - name: HTML
+          logo: /images/html.png
+          summary: "Proficient in HTML for structuring web content, building email templates for marketing purposes."
+          url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        
+        - name: Editoria11y Accessibility Checker
+          logo: /images/drupal.png
+          summary: "Proficient in using Editoria11y Accessibility Checker for ensuring web content is accessible to all users, including those with disabilities."
+          url: "https://www.drupal.org/project/editoria11y"
+        
+        - name: Canva
+          logo: /images/canva.png
+          summary: "Proficient in Canva for graphic design and content creation for marketing."
+          url: "https://www.canva.com/"
+    
+    - name: "Productivity & Design Tools"
+      skills:
+        - name: MS-Office
+          logo: /images/office.png
+          summary: "Proficient in Microsoft Office Suite for document creation, data analysis, and presentation development."
+          url: "https://www.microsoft.com/en-us/microsoft-365"
+        
+        - name: Blender
+          logo: /images/blender.png
+          summary: "Proficient in Blender for 3D modeling, animation, and rendering."
+          url: "https://www.blender.org/"
+        
+        - name: CATIA
+          logo: /images/catia.png
+          summary: "Proficient in CATIA for 3D CAD design, modeling, and engineering applications."
+          url: "https://www.3ds.com/products-services/catia/"

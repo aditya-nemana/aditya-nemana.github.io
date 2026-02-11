@@ -2,12 +2,28 @@ section:
   name: Academic Experiences # Titre de la section (par défaut: "" )
   id: academic_experiences # url id/slug of section *Required*
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
 # Your experiences
 academic_experiences:
+
+- company:
+    name: Computational Aerodynamics Laboratory, McGill University
+    url: "https://sites.google.com/view/mcgill-computational-aerogroup/home"
+    location: Montreal, Canada
+    logo: /images/mcgill.png
+    darkLogo: /images/mcgill.png
+    overview: Development of Matrix-free Preconditioners for Newton-Krylov methods for applications in compressible turbulent flows.
+  positions:
+  - designation: Doctoral Candidate 
+    start: Sept 2021
+    end: Present
+    responsibilities:
+    - Implemented matrix-free LU-SGS preconditioner on an in-house finite-volume C++ code called FVENS.
+    - Currently working on developing novel matrix-free preconditioner as part of my doctoral thesis.
+
 - company:
     name: McGill University
     url: "https://coursecatalogue.mcgill.ca/courses/mech-430/index.html"
@@ -25,18 +41,3 @@ academic_experiences:
     - Supported instruction for Fluid Mechanics 2 and Fundamentals of Computer Programming using Python.
 
 
-- company:
-    name: Advanced Combustion and Acoustics Laboratory, Indian Institute of Technology (IIT) Kanpur
-    url: "https://www.iitk.ac.in/aero/lab-facilities#:~:text=Advanced%20Combustion%20and%20Acoustics%20Laboratory"
-    location: Kanpur, India
-    logo: /images/iitk.png
-    darkLogo: /images/iitk.png
-    overview: Development of a Standalone, Liquid fueled Miniature Power Generation System at Advanced Combustion and Acoustics Laboratory.
-  positions:
-  - designation: Research Associate
-    start: July 2018
-    end: May 2019
-    responsibilities:
-    - Worked on the design and development of a miniature power generation system using liquid fuel.
-    - Conducted Computational Fluid Dynamics (CFD) analyses using ANSYS-FLUENT and ICEM-CFD to evaluate the performance and efficiency of the system.
-    - Optimized the heat sink design, resulting in a publication in the Journal of Energy Resources Technology.

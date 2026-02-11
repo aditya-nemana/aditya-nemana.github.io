@@ -11,25 +11,44 @@
     <h1 class="text-center" style="display: none">
         <span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
   {{ end }}
-  {{ if .section.filter }}
-  <div class="container ms-auto text-center">
-    <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
-      {{ range .buttons }}
-      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="{{ .filter }}">
-        {{ .name }}
-      </button>
-      {{ end }}
-    </div>
-  </div>
-  <div class="container d-flex-block filtr-skills">
-    <div class="row" id="skill-card-holder" style="margin-left:unset">
-  {{ else }}
-  <div class="container d-flex-block">
-    <div class="row" id="primary-skills">
-  {{ end }}
-      {{ range .skills }}
-      {{ partial "cards/skill.html" . }}
+  
+  {{ if .section.groups }}
+    <!-- Grouped skills by category -->
+    {{ range .section.groups }}
+      {{ $groupID := replace (lower .name) " " "-" }}
+      <div class="skill-group mb-5" id="{{ $groupID }}">
+        <h2 class="text-center mb-4">{{ .name }}</h2>
+        <div class="container d-flex-block">
+          <div class="row">
+            {{ range .skills }}
+              {{ partial "cards/skill.html" . }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
     {{ end }}
+  {{ else }}
+    <!-- Original single section code -->
+    {{ if .section.filter }}
+    <div class="container ms-auto text-center">
+      <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
+        {{ range .buttons }}
+        <button type="button" class="btn btn-dark skill-filtr-control" data-filter="{{ .filter }}">
+          {{ .name }}
+        </button>
+        {{ end }}
+      </div>
     </div>
-  </div>
+    <div class="container d-flex-block filtr-skills">
+      <div class="row" id="skill-card-holder" style="margin-left:unset">
+    {{ else }}
+    <div class="container d-flex-block">
+      <div class="row" id="primary-skills">
+    {{ end }}
+        {{ range .skills }}
+        {{ partial "cards/skill.html" . }}
+      {{ end }}
+      </div>
+    </div>
+  {{ end }}
 </div>
