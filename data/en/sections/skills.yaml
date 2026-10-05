@@ -35,6 +35,34 @@ section:
           summary: "Proficient in Matlab programming for numerical analysis, data visualization, and algorithm development."
           url: "https://www.mathworks.com/products/matlab.html"
     
+    - name: "Libraries"
+      skills:
+        - name: PETSc
+          logo: /images/petsc.svg
+          summary: "Proficient in using PETSc for solving large-scale linear and nonlinear systems of equations, particularly in the context of CFD simulations."
+          url: "https://www.mcs.anl.gov/petsc/"
+        
+        - name: Eigen
+          logo: /images/eigen.png
+          summary: "Proficient in using Eigen for linear algebra operations, matrix computations, and numerical methods in C++."
+          url: "https://eigen.tuxfamily.org/dox/"
+        
+        - name: NumPy
+          logo: /images/numpy.svg
+          summary: "Proficient in using NumPy for numerical computing in Python, including arrays and linear algebra."
+          url: "https://numpy.org/"
+        
+        - name: Scipy
+          logo: /images/scipy.svg
+          summary: "Proficient in using SciPy for scientific computing in Python."
+          url: "https://www.scipy.org/"  
+
+        - name: Matplotlib
+          logo: /images/matplotlib.svg
+          summary: "Proficient in using Matplotlib for data visualization in Python."
+          url: "https://matplotlib.org/"  
+
+    
     - name: "Web Development & Design"
       skills:
         - name: Hugo 

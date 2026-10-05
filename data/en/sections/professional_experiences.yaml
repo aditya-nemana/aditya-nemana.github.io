@@ -16,7 +16,7 @@ professional_experiences:
     darkLogo: /images/bombardier.png
     overview: "Improving the robustness of the non-linear and linear solvers in the in-house unstructured CFD solver DRAGON using C/C++ and PETSc for industrial applications."
   positions:
-  - designation: Intern
+  - designation: Student Intern
     start: March 2023
     end: present
     responsibilities:
@@ -30,16 +30,23 @@ professional_experiences:
     location: Montreal, Canada
     logo: /images/pgss.jpg
     darkLogo: /images/pgss.jpg
-    overview: "Active involvement in accessibility advocacy, event organization, survey development, and ensuring digital accessibility compliance within PGSS and McGill University."
+    overview: "Active involvement in equity, dversity, inclusion, and accessibility advocacy, event organization, survey development, and ensuring digital accessibility compliance within PGSS and McGill University."
   positions:
+  - designation: Equity and Diversity Commissioner
+    start: June 2026
+    end: present
+    responsibilities:
+    - Actively serving on McGill University's EDI Committee (EDIC).
+    - Introduced EDI Awards aimed at supporting projects and initiatives that promote equity, diversity, and inclusion within the graduate student community.
+    - Co-chaired the PGSS Equity Committee.
   - designation: Accessibility Commissioner
     start: June 2024
-    end: present
+    end: May 2026
     responsibilities:
     - Active member of McGill University’s Subcommittee for People with Disabilities and its website development team.
     - Organized events and workshops to raise awareness about accessibility issues faced by grad students and promote inclusivity.
-    - Developed an accessibility survey for graduate students and postdocs at McGill University.
-    - Responsible for ensuring that the upcoming new PGSS website confirms with WCAG 2.2 Level AA standards.
+    - Developed and implemented an accessibility survey for graduate students and postdocs at McGill University.
+    - Ensured that the upcoming new PGSS website confirms with WCAG 2.2 Level AA standards.
 
 
 - company:
@@ -57,7 +64,7 @@ professional_experiences:
     - Member of the Social Impact, Community Building, and Outreach Partnerships in Engineering (SCOPE) team.
     - Responsible for designing modules to help graduate students integrate the principles of Equity, Diversity, and Inclusion (EDI) into engineering design.
     - Responsible for integrating the designed modules into a self-paced course website.
-    - Providing a neurodivergent perspective to the module and website design through my lived experiences.
+    - Provided a neurodivergent perspective to the module and website design through my lived experiences.
 
 - company:
     name: Office of E-IDEA, McGill University
@@ -91,18 +98,4 @@ professional_experiences:
     - Maintaining WCAG 2.0 AA (Level AA) and SGQRI 008 2.0 conformity using Editoria11y Accessibility Checker and WAVE.
     - Assisted with the planning and execution of ISS events and initiatives.
 
-- company:
-    name: Advanced Combustion and Acoustics Laboratory, Indian Institute of Technology (IIT) Kanpur
-    url: "https://www.iitk.ac.in/aero/lab-facilities#:~:text=Advanced%20Combustion%20and%20Acoustics%20Laboratory"
-    location: Kanpur, India
-    logo: /images/iitk.png
-    darkLogo: /images/iitk.png
-    overview: Development of a Standalone, Liquid fueled Miniature Power Generation System at Advanced Combustion and Acoustics Laboratory.
-  positions:
-  - designation: Research Associate
-    start: July 2018
-    end: May 2019
-    responsibilities:
-    - Worked on the design and development of a miniature power generation system using liquid fuel.
-    - Conducted Computational Fluid Dynamics (CFD) analyses using ANSYS-FLUENT and ICEM-CFD to evaluate the performance and efficiency of the system.
-    - Optimized the heat sink design, resulting in a publication in the Journal of Energy Resources Technology.
+

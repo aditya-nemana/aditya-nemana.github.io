@@ -8,6 +8,54 @@ section:
   # hideTitle: true 
 # Your experiences
 volunteering_experiences:
+
+- company:
+    name: Subcommittee for Persons with Disabilities, McGill University
+    url: ""
+    location: Montreal, Canada
+    logo: 
+    darkLogo: 
+    overview: Co-chair of the Subcommittee for Persons with Disabilities advocating for the rights and needs of persons with disabilities at the policy level.
+  positions:
+  - designation: Co-Chair
+    start: Aug 2024
+    end: present
+    responsibilities:
+    - Organized regular committee meetings to discuss and address the needs of persons with disabilities.
+    - Represented the committee in meetings with university administration and other stakeholders to advocate for the rights and needs of persons with disabilities.
+    - Reviewed and approved proposals for the creation of new graduate programs.
+
+- company:
+    name: Equity, Diversity, Inclusion Committee (EDIC), McGill University
+    url: "https://www.mcgill.ca/senate/committeesofsenate/edi-committee-joint-board-senate-committee"
+    location: Montreal, Canada
+    logo: 
+    darkLogo: 
+    overview: Advocating for EDI among students, staff, and faculty at the university policy level.
+  positions:
+  - designation: Graduate and Disabled Students' Representative
+    start: Sept 2025
+    end: present
+    responsibilities:
+    - Contributed to the development of policies and programs that promote EDI at the university level.
+    - Advocated for the rights and needs of graduate students and disabled persons on campus.
+
+- company:
+    name: Council of Graduate and Postdoctoral Studies (CGPS), McGill University
+    url: "https://www.mcgill.ca/gps/about/council"
+    location: Montreal, Canada
+    logo: 
+    darkLogo: 
+    overview: Volunteered with CGPS, participating in policy development for graduate and postdoctoral programs at McGill University.
+  positions:
+  - designation: Engineering Graduate Student Representative
+    start: Sept 2023
+    end: Apr 2025
+    responsibilities:
+    - Contributed to the development, revision, and approval of the regulations, guidelines, and policies on graduate and postdoctoral studies.
+    - Participated in strategic planning for initiatives to promote and enhance graduate and postdoctoral studies.
+    - Reviewed and approved proposals for the creation of new graduate programs.
+
 - company:
     name: Graduate Engineering Equity Committee (GEEC), McGill University
     url: ""

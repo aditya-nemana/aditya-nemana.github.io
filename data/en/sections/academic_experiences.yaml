@@ -21,8 +21,9 @@ academic_experiences:
     start: Sept 2021
     end: Present
     responsibilities:
-    - Implemented matrix-free LU-SGS preconditioner on an in-house finite-volume C++ code called FVENS.
-    - Currently working on developing novel matrix-free preconditioner as part of my doctoral thesis.
+      - Improved robustness of the Newton-Krylov solver in Bombardier's unstructured CFD code, DRAGON, by introducing backtracking line search.
+      - Introduced a Jacobian-free Newton-Krylov framework with matrix-free preconditioners in DRAGON for applications in RANS simulations.
+      - Developed a matrix-free preconditioner based on the Newton-Schulz iterative method.
 
 - company:
     name: McGill University
@@ -40,4 +41,18 @@ academic_experiences:
     - Assisted with the development of course materials and resources.
     - Supported instruction for Fluid Mechanics 2 and Fundamentals of Computer Programming using Python.
 
-
+- company:
+    name: Advanced Combustion and Acoustics Laboratory, Indian Institute of Technology (IIT) Kanpur
+    url: "https://www.iitk.ac.in/aero/lab-facilities#:~:text=Advanced%20Combustion%20and%20Acoustics%20Laboratory"
+    location: Kanpur, India
+    logo: /images/iitk.png
+    darkLogo: /images/iitk.png
+    overview: Development of a Standalone, Liquid fueled Miniature Power Generation System at Advanced Combustion and Acoustics Laboratory.
+  positions:
+  - designation: Research Associate
+    start: July 2018
+    end: May 2019
+    responsibilities:
+    - Worked on the design and development of a miniature power generation system using liquid fuel.
+    - Conducted Computational Fluid Dynamics (CFD) analyses using ANSYS-FLUENT and ICEM-CFD to evaluate the performance and efficiency of the system.
+    - Optimized the heat sink design, resulting in a publication in the Journal of Energy Resources Technology.
